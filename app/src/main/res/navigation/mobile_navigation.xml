@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.greenie.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_news_and_events"
+        android:name="com.example.greenie.ui.news_and_events.NewsAndEventsFragment"
+        android:label="@string/menu_news_and_events"
+        tools:layout="@layout/fragment_news_and_events" />
+
+    <fragment
+        android:id="@+id/nav_recycle_center_locations"
+        android:name="com.example.greenie.ui.recycle_center_locations.RecycleCenterLocationsFragment"
+        android:label="@string/menu_recycle_center_locations"
+        tools:layout="@layout/fragment_recycle_center_locations" />
+
+    <fragment
+        android:id="@+id/nav_information"
+        android:name="com.example.greenie.ui.information.InformationFragment"
+        android:label="@string/menu_information"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.greenie.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.greenie.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>
